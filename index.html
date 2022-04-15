@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tanya Robertson - Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dojonary</h1>
+            <div class="input"><input type="text" id="search"><label for="search">Search</label></div>
+            <button class="btn" id="login-btn" onclick="changeText()">Login</button>
+        </div>
+        <main>
+            <div class="left">
+                <div class="card">
+                    <div class="left-side">
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <p>Plural: <span>ninjas</span></p>  
+                        <button class="btn" onclick="likedBtn()">13 likes</button>  
+                    </div>
+                    <div class="right-side">
+                        <p class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="left-side">
+                        <h2>ninja</h2>
+                        <h3>noun</h3>
+                        <p>Plural: <span>ninjas</span></p>  
+                        <button class="btn" onclick="likedBtn()">37 likes</button>  
+                    </div>
+                    <div class="right-side">
+                        <p class="definition">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <p>Dojonary is defined by YOU</p>
+                <button class="btn" id="definition" onclick="removeBtn(this)">Add definition</button>
+            </div>
+        </main>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
